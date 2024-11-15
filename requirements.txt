@@ -1,0 +1,18 @@
+# Core Django dependencies
+Django==5.0.6               # Latest Django version
+asgiref==3.8.1              # Required for Django's async support
+pillow==10.3.0              # For handling image files in Django
+sqlparse==0.5.0             # SQL parsing, often required by Django
+tzdata==2024.1              # Time zone data for Django
+
+# Environment management and REST API
+django-environ>=0.10.0      # Environment variable management
+djangorestframework>=3.15.0 # For building REST APIs
+
+# Rich text editing and styling utilities
+django-ckeditor>=6.6.1      # Rich text editing in Django
+django-compressor>=4.4      # For compressing CSS/JS files
+libsass>=0.22.1             # SCSS compilation support
+
+# Database adapter
+psycopg2-binary>=2.9.9      # PostgreSQL adapter, if using PostgreSQL
